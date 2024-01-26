@@ -2651,6 +2651,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1384516137410212888, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1690603955564274682, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: m_SortingLayer
       value: 2
@@ -2675,6 +2679,18 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6a9f72c3aacf4414e9cbdf8684a42533, type: 2}
+    - target: {fileID: 3886041161160499639, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 4594505002472073520}
+    - target: {fileID: 6483571054070532162, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6483571054070532162, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
+      propertyPath: m_Simulated
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532164, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2721,7 +2737,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532165, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: jumpForce
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532165, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: runMaxSpeed
@@ -2729,11 +2745,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532165, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: acceleration
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532165, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: deceleration
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532165, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: gravityScale
@@ -2753,7 +2769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532165, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: conserverMomentum
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532165, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: fastFallGravityMult
@@ -2769,7 +2785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532165, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: <IsFacingRight>k__BackingField
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6483571054070532167, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
       propertyPath: m_Name
@@ -2781,6 +2797,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
+--- !u!95 &4594505002472073520 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3429556888689539805, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
+  m_PrefabInstance: {fileID: 3239284278646529335}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8434813731201537395 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6483571054070532164, guid: d37d0b9ebfe7aeb488ff1fc83db6a12e, type: 3}
