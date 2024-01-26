@@ -68,6 +68,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1384516137410212888}
   - component: {fileID: 1690603955564274682}
+  - component: {fileID: 3429556888689539805}
   m_Layer: 0
   m_Name: Cat-5-Idle_0
   m_TagString: Untagged
@@ -142,6 +143,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &3429556888689539805
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3910466175970546704}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6c1cb933bc49da546a98b325248b27c0, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &6483571054070532167
 GameObject:
   m_ObjectHideFlags: 0
@@ -154,6 +175,7 @@ GameObject:
   - component: {fileID: 6483571054070532162}
   - component: {fileID: 6483571054070532165}
   - component: {fileID: 6483571054070532161}
+  - component: {fileID: 3886041161160499639}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -243,6 +265,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c3db4ab9fb994a408176067f2696cc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3886041161160499639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6483571054070532167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57119e452c0e9ef42b86e9fcf471a981, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6483571054852433610
